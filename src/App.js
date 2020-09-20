@@ -39,7 +39,6 @@ class App extends Component {
   }
 
   handleChange = (event) => {
-    const marked = window.marked;
     const mkdned = {
       __html: window.marked(event.target.value, {
         breaks: true,
@@ -55,11 +54,6 @@ class App extends Component {
         />
       ),
     });
-    console.log(
-      marked(event.target.value, {
-        breaks: true,
-      })
-    );
   };
 
   render() {
