@@ -31,10 +31,18 @@
   overflow: auto;
 }
 
-table {
+.two-tables {
   width: 90%;
 }
 
 th {
   width: 50%;
 }
+
+/* blockquote {
+  margin: 5px;
+  border: 1px dotted gray;
+  background-color: rgb(229, 234, 241);
+  padding: 3px;
+  margin: 0;
+} */
